@@ -83,7 +83,7 @@
     padding-top: 1.25rem; /* pt-5 */
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* grid-cols-1 */
+    grid-template-columns: repeat(2, 1fr); /* grid-cols-1 */
     gap: 5px; /* gap-3 */
 }
 .card-grid-2 {
@@ -97,7 +97,7 @@
 
 @media (min-width: 640px) { /* sm breakpoint */
     .card-grid-3 {
-        width: 400px;
+        width: 600px;
         grid-template-columns: repeat(3, 1fr); /* sm:grid-cols-3 */
         gap: 5px; /* sm:gap-8 */
     }
