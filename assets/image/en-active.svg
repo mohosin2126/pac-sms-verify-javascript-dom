@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <title>office-employee</title>
+    <path d="M17.931,23.25H6.069L4.527,16.281a1.139,1.139,0,0,1,.166-.885.881.881,0,0,1,.72-.4H18.587a.881.881,0,0,1,.72.4,1.139,1.139,0,0,1,.166.885Z" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></path>
+    <line x1="0.75" y1="23.25" x2="23.25" y2="23.25" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <circle cx="12" cy="18.75" r="1.5" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></circle>
+    <path d="M8.445,2.781a6.848,6.848,0,0,0,4.93,2.094,6.851,6.851,0,0,0,2.713-.558" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></path>
+    <circle cx="12" cy="4.875" r="4.125" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></circle>
+    <path d="M17,12.75a6.676,6.676,0,0,0-10,0" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></path>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <title>people-man-12</title>
+    <circle cx="12.001" cy="8.25" r="5.25" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></circle>
+    <polyline points="8.251 16.499 12.001 21 15.751 16.499" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></polyline>
+    <line x1="12.001" y1="0.75" x2="12.001" y2="4.5" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <path d="M21.489,23.25a9.751,9.751,0,0,0-18.976,0" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></path>
+    <line x1="4.501" y1="6.75" x2="6.971" y2="6.75" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <line x1="6.751" y1="2.25" x2="8.683" y2="4.182" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <line x1="19.501" y1="6.75" x2="17.031" y2="6.75" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <line x1="17.251" y1="2.25" x2="15.319" y2="4.182" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <line x1="4.501" y1="15.75" x2="5.92" y2="17.878" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+    <line x1="19.501" y1="15.75" x2="18.082" y2="17.878" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
+</svg>

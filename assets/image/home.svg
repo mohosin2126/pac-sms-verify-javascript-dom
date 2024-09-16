@@ -1,10 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100">
-    <title>real-estate-deal-key</title>
-    <path d="M20.25,12v9a1.5,1.5,0,0,1-1.5,1.5H8.25A1.5,1.5,0,0,1,6.75,21" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></path>
-    <line x1="23.25" y1="9.75" x2="13.5" y2="1.5" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
-    <line x1="3.75" y1="9.75" x2="13.5" y2="1.5" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
-    <polyline points="18.75 2.25 21.75 2.25 21.75 5.25" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></polyline>
-    <circle cx="3.75" cy="15.75" r="3" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></circle>
-    <polyline points="6.75 15.75 14.25 15.75 14.25 18" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></polyline>
-    <line x1="11.25" y1="15.75" x2="11.25" y2="17.25" style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"></line>
-</svg>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>house-3</title>
+                                <path
+                                    d="M2.25,9.4V21.75h4.5v-6a1.5,1.5,0,0,1,1.5-1.5h1.5a1.5,1.5,0,0,1,1.5,1.5v6h10.5V9.4"
+                                    style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"
+                                ></path>
+                                <path
+                                    d="M23.25,10.5,12.887,2.9a1.5,1.5,0,0,0-1.774,0L.75,10.5"
+                                    style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"
+                                ></path>
+                                <polyline
+                                    points="15.75 5 15.75 2.25 20.25 2.25 20.25 8.3"
+                                    style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"
+                                ></polyline>
+                                <rect
+                                    x="14.25"
+                                    y="14.25"
+                                    width="4.5"
+                                    height="4.5"
+                                    style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"
+                                ></rect>
+                                <line
+                                    x1="0.75"
+                                    y1="21.75"
+                                    x2="23.25"
+                                    y2="21.75"
+                                    style="fill: none; stroke: white; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5px;"
+                                ></line>
+                            </svg>

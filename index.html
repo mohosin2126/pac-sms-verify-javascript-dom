@@ -12,61 +12,61 @@
 
 <body class="bg-gray-100 font-roboto">
 
-<!-- Header Section -->
-<header>
-    <div class="flex items-center justify-center h-[60px] bg-secondary">
-        <img class="h-[60px]" src="./assets/image/thermoperformance.png" alt="logo"/>
-    </div>
-</header>
-
-<!-- Main Content -->
-<main class="container mx-auto min-h-screen bg-white p-8 mt-8">
-    <!-- Step 1: Postal Code Form -->
-    <section id="step1">
-        <div class="py-14 text-center">
-            <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">
-                Vous souhaitez réduire vos Factures de <br> chauffage ?
-            </h1>
-            <p class="text-lg text-gray-600 leading-relaxed tracking-normal">
-                Profitez d’une aide pouvant aller
-                <strong class="text-highlight font-bold"> jusqu’à 10,500€</strong>
-                en installant <strong class="text-highlight font-bold">une Pompe à Chaleur</strong>
-                et <br> réduisez vos Factures de Chauffage de
-                <strong class="text-highlight font-bold">75%</strong>
-            </p>
+    <!-- Header Section -->
+    <header>
+        <div class="flex items-center justify-center h-[60px] bg-secondary">
+            <img class="h-[60px]" src="./assets/image/thermoperformance.png" alt="logo" />
         </div>
+    </header>
 
-        <h1 class="text-xl font-bold text-center text-primary">
-            GRATUIT : Testez en 2 minutes votre éligibilité
-        </h1>
+    <!-- Main Content -->
+    <main class="container mx-auto min-h-screen bg-white p-8 mt-8">
+        <!-- Step 1: Postal Code Form -->
+        <section id="step1" >
+            <div class="py-14 text-center">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">
+                    Vous souhaitez réduire vos Factures de <br> chauffage ?
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed tracking-normal">
+                    Profitez d’une aide pouvant aller
+                    <strong class="text-highlight font-bold"> jusqu’à 10,500€</strong>
+                    en installant <strong class="text-highlight font-bold">une Pompe à Chaleur</strong>
+                    et <br> réduisez vos Factures de Chauffage de
+                    <strong class="text-highlight font-bold">75%</strong>
+                </p>
+            </div>
 
-        <div class="mt-12 sm:w-96 mx-auto">
-            <!-- Progress bar -->
-            <div class="bg-primary h-2 rounded-full mb-4"
-                 style="width: 50%;height: 3px; background-color: #0A6847; border-radius: 5px;"></div>
+            <h1 class="text-xl font-bold text-center text-primary">
+                GRATUIT : Testez en 2 minutes votre éligibilité
+            </h1>
 
-            <h1 class="text-xl font-bold text-center mb-4">Quel est votre code postal:</h1>
+            <div class="mt-12 sm:w-96 mx-auto">
+                <!-- Progress bar -->
+                <div class="bg-primary h-2 rounded-full mb-4"
+                    style="width: 50%;height: 3px; background-color: #0A6847; border-radius: 5px;"></div>
 
-            <form class="mt-5">
-                <input type="text" placeholder="Postal Code"
-                       class="w-full px-3 py-3 bg-gray-200 rounded font-normal text-base leading-none outline-none input-ring mb-2"/>
-                <div class="text-center mb-4">
-                    <span class="error-toast">Le code postal n'est pas valide.</span>
-                </div>
-                <button type="submit"
+                <h1 class="text-xl font-bold text-center mb-4">Quel est votre code postal:</h1>
+
+                <form class="mt-5">
+                    <input type="text" placeholder="Postal Code"
+                        class="w-full px-3 py-3 bg-gray-200 rounded font-normal text-base leading-none outline-none input-ring mb-2" />
+                    <div class="text-center mb-4">
+                        <span class="error-toast">Le code postal n'est pas valide.</span>
+                    </div>
+                    <button type="submit"
                         class="px-4 py-3 rounded-md text-white w-full font-semibold flex items-center justify-center gap-4 hover:translate-y-[-2px] transition-all"
                         style="background-color: #0A6847;">
-                    Continue
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                         stroke="currentColor" class="w-5 h-5 font-bold">
-                        <path strokeLinecap="round" strokeLinejoin="round"
-                              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
-                    </svg>
-                </button>
-            </form>
-        </div>
-        <div>
-            <div >
+                        Continue
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" class="w-5 h-5 font-bold">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <!-- common image section  -->
+            <div>
                 <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
                     <img src="./assets/image/image1.png" alt="CEE Logo" />
                     <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
@@ -74,48 +74,127 @@
                     <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Step 2: Housing Type -->
-    <section class="" id="step2">
-        <div class="flex items-center flex-col justify-center gap-5 p-5">
-            <!-- Progress Bar -->
-            <div class="flex gap-4 pt-14">
-                <div class="flex gap-2">
-                    <!-- Example Progress Bar; Adjust the colors based on the current step -->
-                    <div class="w-2 h-2 rounded-full bg-primary transition-transform"
-                         style="background-color:#0A6847"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
-                    <!-- Add more dots as needed -->
+        <!-- Step 2: Housing Type -->
+        <section  id="step2">
+            <div class="flex items-center flex-col justify-center gap-5 p-5">
+                <!-- Progress Dots -->
+                <div class="flex gap-4 pt-14">
+                    <div class="flex gap-2">
+                        <div class="w-2 h-2 rounded-full"
+                            style="background-color: rgb(10, 104, 71); transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full"
+                            style="background-color: rgb(10, 104, 71); transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                    </div>
+                </div>
+
+
+                <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Vous Habitez:</h1>
+
+                <!-- Cards Section -->
+                <div class="card-grid-2">
+                    <!-- Card 1 -->
+                    <div class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <!-- Replace with actual icon -->
+                        <div>
+                            <img src="/assets/image/home.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize text-center">maison</h1>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <!-- Replace with actual icon -->
+                        <div>
+                            <img src="/assets/image/house-retro.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize">appartement</h1>
+                    </div>
+                </div>
+                <!-- common image section  -->
+                <div>
+                    <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
+                        <img src="./assets/image/image1.png" alt="CEE Logo" />
+                        <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
+                        <img src="./assets/image/image3.png" alt="TVA Réduite Logo" />
+                        <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
+                    </div>
+                </div>
+        </section>
+
+        <!-- Step 3: Professional Situation -->
+        <section  id="step3">
+            <div data-aos="fade-left" class="p-5">
+                <div class="flex items-center flex-col justify-center gap-5">
+                    <!-- Progress Bar -->
+                    <div class="flex gap-4 pt-14">
+                        <div class="flex gap-2">
+                            <div class="w-2 h-2 rounded-full"
+                                style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                            <div class="w-2 h-2 rounded-full"
+                                style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300"
+                                style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;">
+                            </div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;">
+                            </div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;">
+                            </div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;">
+                            </div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;">
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Vous êtes:</h1>
+
+                    <!-- Cards Section -->
+                    <!-- Cards Section -->
+                    <div class="card-grid-2">
+                        <!-- Card 1 -->
+                        <div class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                            style="background-color: #0A6847;">
+                            <div>
+                                <!-- Replace with actual icon -->
+                                <img src="/assets/image/real-estate-deal-key.svg" alt="home" class="w-full h-full"
+                                    style="width: 50px; height: 50px;" />
+                            </div>
+                            <h1 class="text-[1rem] font-bold capitalize text-center">Propriétaire</h1>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                            style="background-color: #0A6847;">
+                            <div>
+                                <!-- Replace with actual icon -->
+                                <img src="/assets/image/real-estate-sign-house-rent.svg" alt="home"
+                                    class="w-full h-full" style="width: 50px; height: 50px;" />
+                            </div>
+                            <h1 class="text-[1rem] font-bold capitalize">Locataire</h1>
+                        </div>
+                    </div>
+
+                    <!-- Additional content -->
+                    <div class="pt-5">
+                        <!-- Replace with actual image or content -->
+                        <img src="path/to/common-image.png" alt="Common" class="w-full max-w-md mx-auto" />
+                    </div>
                 </div>
             </div>
-            <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Vous Habitez:</h1>
-            <!-- Cards Section -->
-            <div class="w-full sm:w-[400px] grid grid-cols-2 gap-3 sm:gap-8 pt-5 mx-auto">
-                <!-- Card 1 -->
-                <div
-                        style="background-color: #0A6847; transition: background-color 0.3s;"
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
-                    <div class="w-[55px]">
-                        <!-- Replace with actual icon -->
-                        <img src="/assets/image/home.svg"/>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">maison</h1>
-                </div>
-                <!-- Card 2 -->
-                <div
-                        style="background-color: #0A6847; transition: background-color 0.3s;"
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
-                    <div class="w-[55px]">
-                        <!-- Replace with actual icon -->
-                        <img src="/assets/image/renHome.svg"/>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">appartement</h1>
-                </div>
-            </div>
-            <div >
+            <!-- common image section  -->
+            <div>
                 <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
                     <img src="./assets/image/image1.png" alt="CEE Logo" />
                     <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
@@ -123,187 +202,70 @@
                     <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
                 </div>
             </div>
-    </section>
+        </section>
 
+        <!-- Step 4: Cost Estimate -->
+        <section  id="step4">
+            <!-- Fourth Step Page -->
+            <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
 
-    <!-- Step 3: Professional Situation -->
-    <section id="step3">
-        <div data-aos="fade-left" class="p-5">
-            <div class="flex items-center flex-col justify-center gap-5">
                 <!-- Progress Bar -->
                 <div class="flex gap-4 pt-14">
                     <div class="flex gap-2">
                         <div class="w-2 h-2 rounded-full"
-                             style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
                         <div class="w-2 h-2 rounded-full"
-                             style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
                         <div class="w-2 h-2 rounded-full bg-gray-300"
-                             style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
                         <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
                         <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
                         <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
                         <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
                     </div>
                 </div>
-                <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Vous êtes:</h1>
+
+                <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">coût mensuel pour la
+                    maison:</h1>
+
                 <!-- Cards Section -->
-                <div class="w-full sm:w-[400px] grid grid-cols-2 gap-3 sm:gap-8 pt-5 mx-auto">
+                <div class=" card-grid-3">
                     <!-- Card 1 -->
-                    <div
-                            class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                            style="background-color: #0A6847;">
+                    <div class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
                         <div>
                             <!-- Replace with actual icon -->
-                            <i class="fa-solid fa-house-chimney fa-3x"></i>
+                            <img src="/assets/image/0-100.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
                         </div>
-                        <h1 class="text-[1rem] font-bold capitalize text-center">Propriétaire</h1>
+                        <h1 class="text-[1rem] font-bold capitalize text-center">0-100</h1>
                     </div>
+
                     <!-- Card 2 -->
-                    <div
-                            class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                            style="background-color: #0A6847;">
+                    <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
                         <div>
                             <!-- Replace with actual icon -->
-                            <i class="fa-solid fa-house retro-icon fa-3x"></i>
+                            <img src="/assets/image/100-200.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
                         </div>
-                        <h1 class="text-[1rem] font-bold capitalize">Locataire</h1>
+                        <h1 class="text-[1rem] font-bold capitalize">100-200</h1>
                     </div>
-                </div>
-                <!-- Additional content -->
-                <div class="pt-5">
-                    <!-- Replace with actual image or content -->
-                    <img src="path/to/common-image.png" alt="Common" class="w-full max-w-md mx-auto"/>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div >
-                <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
-                    <img src="./assets/image/image1.png" alt="CEE Logo" />
-                    <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
-                    <img src="./assets/image/image3.png" alt="TVA Réduite Logo" />
-                    <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Step 4: Cost Estimate -->
-    <section id="step4">
-        <!-- Fourth Step Page -->
-        <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
-
-            <!-- Progress Bar -->
-            <div class="flex gap-4 pt-14">
-                <div class="flex gap-2">
-                    <!-- Example Progress Bar; Adjust the colors based on the current step -->
-                    <div class="w-2 h-2 rounded-full bg-primary transition-transform"
-                         style="background-color: #5ebb27;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
-                    <!-- Add more dots as needed -->
-                </div>
-            </div>
-
-            <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Coût Mensuel pour la
-                Maison:</h1>
-
-            <!-- Cards Section -->
-            <div class="w-full md:w-[400px] lg:w-[600px] grid grid-cols-3 gap-2 lg:gap-8 pt-5 mx-auto p-2">
-                <!-- Card 1 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
-                    <div class="w-[55px]">
-                        <!-- Replace with actual DollurIcon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                             stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
-                        </svg>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">0-100</h1>
-                </div>
-
-                <!-- Card 2 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
-                    <div class="w-[55px]">
-                        <!-- Replace with actual PurchaseIcon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                             stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
-                        </svg>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">100-200</h1>
-                </div>
-
-                <!-- Card 3 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
-                    <div class="w-[55px]">
-                        <!-- Replace with actual Unlimited icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                             stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
-                        </svg>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">200-Illimitée</h1>
-                </div>
-            </div>
-
-    </section>
-
-    <!-- Step 5: Heating Method -->
-    <section  id="step5">
-        <!-- Fourth Step Page -->
-        <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
-
-            <!-- Progress Bar -->
-            <div class="flex gap-4 pt-14">
-                <div class="flex gap-2">
-                    <div class="w-2 h-2 rounded-full"
-                         style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full"
-                         style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                </div>
-            </div>
-
-            <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Votre mode de chauffage : </h1>
-
-            <!-- Cards Section -->
-            <div class=" card-grid-2">
-                <!-- Card 1 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                    <!-- Card 3 -->
+                    <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
                         style="background-color: #0A6847;">
-                    <div>
-                        <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house-chimney fa-3x"></i>
+                        <div>
+                            <!-- Replace with actual icon -->
+                            <img src="/assets/image/unlimited.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize">200-illimitée</h1>
                     </div>
-                    <h1 class="text-[1rem] font-bold capitalize text-center">gaz</h1>
                 </div>
-
-                <!-- Card 2 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                        style="background-color: #0A6847;">
-                    <div>
-                        <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house retro-icon fa-3x"></i>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">fioul</h1>
-                </div>
-            </div>
-
-            <div>
-                <div >
+                <!-- common image section  -->
+                <div>
                     <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
                         <img src="./assets/image/image1.png" alt="CEE Logo" />
                         <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
@@ -311,69 +273,61 @@
                         <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
                     </div>
                 </div>
-            </div>
-    </section>
+        </section>
 
-    <!-- Step 6: Main Form -->
-    <section  id="step6">
-        <!-- Fourth Step Page -->
-        <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
+        <!-- Step 5: Heating Method -->
+        <section  id="step5">
+            <!-- Fourth Step Page -->
+            <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
 
-            <!-- Progress Bar -->
-            <div class="flex gap-4 pt-14">
-                <div class="flex gap-2">
-                    <div class="w-2 h-2 rounded-full"
-                         style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full"
-                         style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="background-color: #0A6847; transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                </div>
-            </div>
-
-            <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Quel est votre situation professionelle:</h1>
-
-            <!-- Cards Section -->
-            <div class=" card-grid-3">
-                <!-- Card 1 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                        style="background-color: #0A6847;">
-                    <div>
-                        <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house-chimney fa-3x"></i>
+                <!-- Progress Bar -->
+                <div class="flex gap-4 pt-14">
+                    <div class="flex gap-2">
+                        <div class="w-2 h-2 rounded-full"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
                     </div>
-                    <h1 class="text-[1rem] font-bold capitalize text-center">En activité</h1>
                 </div>
 
-                <!-- Card 2 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                        style="background-color: #0A6847;">
-                    <div>
-                        <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house retro-icon fa-3x"></i>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">Retraité</h1>
-                </div>
-                <!-- Card 3 -->
-                <div
-                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                        style="background-color: #0A6847;">
-                    <div>
-                        <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house retro-icon fa-3x"></i>
-                    </div>
-                    <h1 class="text-[1rem] font-bold capitalize">Sans Emploi</h1>
-                </div>
-            </div>
+                <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Votre mode de chauffage
+                    : </h1>
 
-            <div>
-                <div >
+                <!-- Cards Section -->
+                <div class=" card-grid-2">
+                    <!-- Card 1 -->
+                    <div class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <div>
+                            <!-- Replace with actual icon -->
+                            <img src="/assets/image/gaz.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize text-center">gaz</h1>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <div>
+                            <!-- Replace with actual icon -->
+                            <img src="/assets/image/fioul.svg" alt="home" class="w-full h-full"
+                                style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize">fioul</h1>
+                    </div>
+                </div>
+                <!-- common image section  -->
+                <div>
                     <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
                         <img src="./assets/image/image1.png" alt="CEE Logo" />
                         <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
@@ -381,42 +335,112 @@
                         <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
                     </div>
                 </div>
+        </section>
+
+        <!-- Step 6: Main Form -->
+        <section  id="step6">
+            <!-- Fourth Step Page -->
+            <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
+
+                <!-- Progress Bar -->
+                <div class="flex gap-4 pt-14">
+                    <div class="flex gap-2">
+                        <div class="w-2 h-2 rounded-full"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300"
+                            style="background-color: #0A6847; transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                        <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                    </div>
+                </div>
+
+                <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Quel est votre situation
+                    professionelle:</h1>
+
+                <!-- Cards Section -->
+                <div class=" card-grid-3">
+                    <!-- Card 1 -->
+                    <div class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <div>
+                            <!-- Replace with actual icon -->
+                            <img src="/assets/image/en-active.svg" alt="home" class="w-full h-full" style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize text-center">En activité</h1>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <div>
+                            <!-- Replace with actual icon -->
+                            <img src="/assets/image/retraite.svg" alt="home" class="w-full h-full" style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize">Retraité</h1>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
+                        style="background-color: #0A6847;">
+                        <div>
+                            <!-- Replace with actual icon -->
+                            <img src="/assets/image/employ.svg" alt="home" class="w-full h-full" style="width: 50px; height: 50px;" />
+                        </div>
+                        <h1 class="text-[1rem] font-bold capitalize">Sans Emploi</h1>
+                    </div>
+                </div>
+                <!-- common image section  -->
+                <div>
+                    <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
+                        <img src="./assets/image/image1.png" alt="CEE Logo" />
+                        <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
+                        <img src="./assets/image/image3.png" alt="TVA Réduite Logo" />
+                        <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
+                    </div>
+                </div>
+        </section>
+
+        <!-- Step 6: Thank You -->
+        <section  id="step7">
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class=" w-full h-auto lg:h-[40px] flex items-center justify-between p-3 bg-secondary">
+            <div
+                class="flex flex-col md:flex-row lg:flex-row items-center justify-between container mx-auto text-gray-200 ">
+                <p>©2024 thermoperformance.com</p>
+
+                <a href="#legal-notices"
+                    class="text-lg mx-4 border border-transparent hover:border-b hover:border-b-amber-200">
+                    <span>Mentions Légales</span>
+                </a>
+                <a href="#privacy-policies"
+                    class="text-lg mx-4 border border-transparent hover:border-b hover:border-b-amber-200">
+                    <span>Politiques de Confidentialité</span>
+                </a>
             </div>
-    </section>
-
-    <!-- Step 7: Thank You -->
-    <section id="step7">
-    </section>
-</main>
-
-<!-- Footer Section -->
-<footer>
-    <div class=" w-full h-auto lg:h-[40px] flex items-center justify-between p-3 bg-secondary">
-        <div class="flex flex-col md:flex-row lg:flex-row items-center justify-between container mx-auto text-gray-200 ">
-            <p>©2024 thermoperformance.com</p>
-
-            <a href="#legal-notices"
-               class="text-lg mx-4 border border-transparent hover:border-b hover:border-b-amber-200">
-                <span>Mentions Légales</span>
-            </a>
-            <a href="#privacy-policies"
-               class="text-lg mx-4 border border-transparent hover:border-b hover:border-b-amber-200">
-                <span>Politiques de Confidentialité</span>
-            </a>
         </div>
-    </div>
 
-    <!-- Hidden Sections for Modal Content -->
-    <div id="legal-notices" class="hidden p-5">
-        <h2 class="text-xl font-bold">Mentions Légales</h2>
-        <!-- Insert Legal Notices Content Here -->
-    </div>
+        <!-- Hidden Sections for Modal Content -->
+        <div id="legal-notices" class="hidden p-5">
+            <h2 class="text-xl font-bold">Mentions Légales</h2>
+            <!-- Insert Legal Notices Content Here -->
+        </div>
 
-    <div id="privacy-policies" class="hidden p-5">
-        <h2 class="text-xl font-bold">Politiques de Confidentialité</h2>
-        <!-- Insert Privacy Policies Content Here -->
-    </div>
-</footer>
+        <div id="privacy-policies" class="hidden p-5">
+            <h2 class="text-xl font-bold">Politiques de Confidentialité</h2>
+            <!-- Insert Privacy Policies Content Here -->
+        </div>
+    </footer>
 
 </body>
 

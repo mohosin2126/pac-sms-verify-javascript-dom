@@ -125,3 +125,7 @@
 .card:hover {
     transform: scale(1.05); /* hover:scale-105 */
 }
+svg {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
