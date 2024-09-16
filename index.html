@@ -86,6 +86,30 @@
         .hover-transform {
             transform: translateY(-5px);
         }
+        .bg-primary {
+            background-color: #5ebb27; /* Primary color */
+        }
+        .bg-hover {
+            background-color: #1a4d2e; /* Hover color */
+        }
+        .transition-transform {
+            transition: transform 0.2s, box-shadow, background-color;
+        }
+        .hover-transform {
+            transform: translateY(-5px);
+        }
+        .bg-primary {
+            background-color: #5ebb27; /* Primary color */
+        }
+        .bg-hover {
+            background-color: #1a4d2e; /* Hover color */
+        }
+        .transition-transform {
+            transition: transform 0.2s, box-shadow, background-color;
+        }
+        .hover-transform {
+            transform: translateY(-5px);
+        }
     </style>
 
 </head>
@@ -244,7 +268,7 @@
     </section>
 
     <!-- Step 4: Cost Estimate -->
-    <section class="" id="step4">
+    <section class="hidden" id="step4">
         <!-- Fourth Step Page -->
         <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
 
@@ -302,14 +326,207 @@
 
     <!-- Step 5: Heating Method -->
     <section class="hidden" id="step5">
+        <!-- Fifth Step Page -->
+        <div class="flex items-center flex-col justify-center gap-5 p-5" data-aos="fade-left">
+
+            <!-- Progress Bar -->
+            <div class="flex gap-4 pt-14">
+                <div class="flex gap-2">
+                    <!-- Example Progress Bar; Adjust the colors based on the current step -->
+                    <div class="w-2 h-2 rounded-full bg-primary transition-transform" style="background-color: #5ebb27;"></div>
+                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                    <!-- Add more dots as needed -->
+                </div>
+            </div>
+
+            <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Votre mode de chauffage :</h1>
+
+            <!-- Cards Section -->
+            <div class="w-full sm:w-[400px] grid grid-cols-2 gap-3 sm:gap-8 pt-5 mx-auto">
+                <!-- Card 1 -->
+                <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                    <div class="w-[55px]">
+                        <!-- Replace with actual StoveGasPotIcon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-[1rem] font-bold capitalize">Gaz</h1>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                    <div class="w-[55px]">
+                        <!-- Replace with actual GasFIcon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-[1rem] font-bold capitalize">Fioul</h1>
+                </div>
+            </div>
     </section>
 
     <!-- Step 6: Main Form -->
     <section class="hidden" id="step6">
+
+        <!-- Sixth Step Page -->
+        <div class="flex items-center flex-col justify-center gap-5 p-5">
+
+            <!-- Conditional Content -->
+            <div class="py-14">
+                <!-- Checking State -->
+                <div id="checking-state" class="hidden">
+                    <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-[#5ebb27] pb-16">
+                        Vos données sont en cours de traitement...
+                    </h1>
+                    <div class="flex items-center justify-center h-20">
+                        <!-- Placeholder for Lottie animation -->
+                        <img src="path/to/checkmark-animation.png" alt="Loading" class="w-40 h-40" />
+                    </div>
+                </div>
+                <!-- Cards Section -->
+                <div id="cards-section">
+                    <!-- Progress Bar -->
+                    <div class="flex gap-4 pt-14">
+                        <div class="flex gap-2">
+                            <!-- Example Progress Bar; Adjust the colors based on the current step -->
+                            <div class="w-2 h-2 rounded-full bg-primary transition-transform"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                            <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                            <!-- Add more dots as needed -->
+                        </div>
+                    </div>
+
+                    <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">
+                        Quel est votre situation professionnelle:
+                    </h1>
+
+                    <!-- Cards Section -->
+                    <div class="w-full md:w-[400px] lg:w-[600px] grid grid-cols-3 gap-2 lg:gap-8 pt-5 mx-auto p-2">
+                        <!-- Card 1 -->
+                        <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                            <div class="w-[55px]">
+                                <!-- Replace with actual OfficeEmployeeIcon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
+                                </svg>
+                            </div>
+                            <h1 class="text-[1rem] font-bold capitalize">En activité</h1>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                            <div class="w-[55px]">
+                                <!-- Replace with actual OldPeopleMan3Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
+                                </svg>
+                            </div>
+                            <h1 class="text-[1rem] font-bold capitalize">Retraité</h1>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                            <div class="w-[55px]">
+                                <!-- Replace with actual PeopleMan12Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M21 12H3"/>
+                                </svg>
+                            </div>
+                            <h1 class="text-[1rem] font-bold capitalize">Sans Emploi</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
     </section>
 
-    <!-- Step 6: Thank You -->
-    <section class="hidden" id="step7">
+    <!-- Step 7: Thank You -->
+    <section class="" id="step7">
+
+        <div class="flex items-center flex-col justify-center gap-5 w-full md:w-[400px] lg:w-[400px] h-full mx-auto">
+            <div class="flex gap-4 pt-14">
+                <!-- DotProgressBar component placeholder -->
+            </div>
+            <div class="font-roboto font-bold text-center">
+                <h1 class="text-[#2b50aa] text-[1.5rem]">VOS COORDONNÉES</h1>
+                <h1 class="text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]">Vous n&apos;assumez aucune obligation ; vous recevez simplement de l&apos;information.</h1>
+            </div>
+            <form class="w-full" action="#" method="POST">
+                <select class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all font-normal text-base leading-none outline-none my-3" required>
+                    <option disabled selected value="">Madame/Monsieur</option>
+                    <option value="female">Madame</option>
+                    <option value="male">Monsieur</option>
+                </select>
+                <div class="flex items-center justify-end mt-1">
+                    <!-- Error message placeholder for gender -->
+                </div>
+                <div class="w-full grid grid-cols-2 gap-3">
+                    <div class="relative mb-3 w-full">
+                        <input type="text" class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none" placeholder="prenom" />
+                        <label class="pointer-events-none absolute left-0 top-0 origin-[0_0] px-3 py-4 text-black transition-[opacity,_transform] duration-200 ease-linear peer-focus:-translate-y-2 peer-focus:translate-x-[0.15rem] peer-focus:scale-[0.85] peer-focus:text-primary peer-[:not(:placeholder-shown)]:-translate-y-2 peer-[:not(:placeholder-shown)]:translate-x-[0.15rem] peer-[:not(:placeholder-shown)]:scale-[0.85] motion-reduce:transition-none dark:text-gray-400 dark:peer-focus:text-primary">
+                            Prenom
+                        </label>
+                        <div class="flex items-center justify-end mt-1">
+                            <!-- Error message placeholder for firstName -->
+                        </div>
+                    </div>
+                    <div class="relative mb-3 w-full">
+                        <input type="text" class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none" placeholder="nom" />
+                        <label class="pointer-events-none absolute left-0 top-0 origin-[0_0] border border-solid border-transparent px-3 py-4 text-black transition-[opacity,_transform] duration-200 ease-linear peer-focus:-translate-y-2 peer-focus:translate-x-[0.15rem] peer-focus:scale-[0.85] peer-focus:text-primary peer-[:not(:placeholder-shown)]:-translate-y-2 peer-[:not(:placeholder-shown)]:translate-x-[0.15rem] peer-[:not(:placeholder-shown)]:scale-[0.85] motion-reduce:transition-none dark:text-gray-400 dark:peer-focus:text-primary">
+                            Nom
+                        </label>
+                        <div class="flex items-center justify-end mt-1">
+                            <!-- Error message placeholder for lastName -->
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-3">
+                    <input type="text" class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none ring-[1px] ring-[#d1d5db] focus:ring-[#d1d5db] focus:ring-[1.8px]" placeholder="Ville" />
+                    <input type="text" class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none ring-[1px] ring-[#d1d5db] focus:ring-[#d1d5db] focus:ring-[1.8px]" placeholder="Adresse de la rue" />
+                    <input type="text" class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none ring-[1px] ring-[#d1d5db] focus:ring-[#d1d5db] focus:ring-[1.8px]" placeholder="En quelle année êtes-vous né?" />
+                    <div class="w-full mx-auto flex items-center justify-center rounded-md">
+                        <div class="flex items-center justify-center w-12 h-[60px] m-0 rounded-l-md border text-gray-900 bg-gray-200" style="border-color: #d1d5db;">
+                    <span class="w-6 h-6">
+                        <!-- ArrowIcon placeholder -->
+                    </span>
+                        </div>
+                        <div class="w-full">
+                            <div class="relative w-full m-0">
+                                <input type="email" class="w-full px-3 py-3 bg-[#fef9f0] rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none ring-[1px] ring-[#d1d5db] focus:ring-[#d1d5db] focus:ring-[1.8px]" placeholder="name@example.com" />
+                                <label class="pointer-events-none absolute left-0 top-0 origin-[0_0] border border-solid border-transparent px-3 py-4 text-black transition-[opacity,_transform] duration-200 ease-linear peer-focus:-translate-y-2 peer-focus:translate-x-[0.15rem] peer-focus:scale-[0.85] peer-focus:text-primary peer-[:not(:placeholder-shown)]:-translate-y-2 peer-[:not(:placeholder-shown)]:translate-x-[0.15rem] peer-[:not(:placeholder-shown)]:scale-[0.85] motion-reduce:transition-none dark:text-gray-400 dark:peer-focus:text-primary">
+                                    Adresse email
+                                </label>
+                            </div>
+                            <div class="flex items-center justify-end">
+                                <!-- Error message placeholder for email -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto flex items-center justify-center rounded-md">
+                        <div class="flex items-center justify-center w-12 h-[45px] rounded-l-md border text-gray-900 bg-gray-200 cursor-not-allowed" style="border-color: #d1d5db;">
+                    <span class="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="8 10">
+                            <path d="M15.04,22.39l.012.007a5.533,5.533,0,0,0,6.884-.755l.774-.774a1.846,1.846,0,0,0,0-2.609L19.449,15a1.846,1.846,0,0,0-2.609,0h0a1.843,1.843,0,0,1-2.608,0L9.014,9.781a1.846,1.846,0,0,1,0-2.609h0a1.843,1.843,0,0,0,0-2.608L5.754,1.3a1.846,1.846,0,0,0-2.609,0l-.774.774a5.535,5.535,0,0,0-.756,6.884l.008.012A49.935,49.935,0,0,0,15.04,22.39Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                        </div>
+                        <div class="w-full otp-container">
+                            <input type="text" class="w-full px-3 py-3 bg-gray-200 rounded font-roboto text-gray-700 transition-all text-base leading-none outline-none ring-[1px] ring-[#d1d5db] focus:ring-[#d1d5db] focus:ring-[1.8px]" placeholder="06453789654" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
     </section>
 </main>
 
