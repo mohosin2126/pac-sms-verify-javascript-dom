@@ -1,0 +1,79 @@
+.bg-secondary {
+    background-color: #0c4e57; /* secondary color */
+}
+.text-highlight {
+    color: #059212; /* text highlight color */
+}
+.font-poppins {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+}
+.font-bold {
+    font-weight: 700; /* bold font weight */
+}
+.bg-primary {
+    background-color: #0A6847; /* primary color */
+}
+.bg-secondary {
+    background-color: #0c4e57; /* secondary color */
+}
+.text-highlight {
+    color: #059212; /* text highlight color */
+}
+.font-roboto {
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+.font-poppins {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+}
+.input-ring {
+    border-color: #0A6847; /* ring color */
+    box-shadow: 0 0 0 1px #0A6847;
+}
+.input-ring:focus {
+    box-shadow: 0 0 0 1.8px #0A6847;
+}
+.error-toast {
+    color: #e53e3e; /* error color */
+}
+.bg-secondary {
+    background-color: #0c4e57; /* Secondary color */
+}
+.text-highlight {
+    color: #059212; /* Highlight color */
+}
+.bg-primary {
+    background-color: #5ebb27; /* Primary color */
+}
+.bg-hover {
+    background-color: #1a4d2e; /* Hover color */
+}
+.transition-transform {
+    transition: transform 0.2s, box-shadow, background-color;
+}
+.hover-transform {
+    transform: translateY(-5px);
+}
+.bg-primary {
+    background-color: #5ebb27; /* Primary color */
+}
+.bg-hover {
+    background-color: #1a4d2e; /* Hover color */
+}
+.transition-transform {
+    transition: transform 0.2s, box-shadow, background-color;
+}
+.hover-transform {
+    transform: translateY(-5px);
+}
+.bg-primary {
+    background-color: #5ebb27; /* Primary color */
+}
+.bg-hover {
+    background-color: #1a4d2e; /* Hover color */
+}
+.transition-transform {
+    transition: transform 0.2s, box-shadow, background-color;
+}
+.hover-transform {
+    transform: translateY(-5px);
+}
