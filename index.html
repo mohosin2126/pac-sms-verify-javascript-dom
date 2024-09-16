@@ -78,57 +78,49 @@
     </section>
 
     <!-- Step 2: Housing Type -->
-    <section id="step2">
+    <section class="" id="step2">
         <div class="flex items-center flex-col justify-center gap-5 p-5">
-            <!-- Progress Dots -->
+            <!-- Progress Bar -->
             <div class="flex gap-4 pt-14">
                 <div class="flex gap-2">
-                    <div class="w-2 h-2 rounded-full"
-                         style="background-color: rgb(10, 104, 71); transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full"
-                         style="background-color: rgb(10, 104, 71); transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
-                    <div class="w-2 h-2 rounded-full bg-gray-300" style="transition: background-color 0.3s;"></div>
+                    <!-- Example Progress Bar; Adjust the colors based on the current step -->
+                    <div class="w-2 h-2 rounded-full bg-primary transition-transform"
+                         style="background-color:#0A6847"></div>
+                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                    <div class="w-2 h-2 rounded-full bg-gray-300 transition-transform"></div>
+                    <!-- Add more dots as needed -->
                 </div>
             </div>
-
-
             <h1 class="text-[1.7rem] md:text-[2rem] lg:text-[2.5rem] font-bold text-center">Vous Habitez:</h1>
-
             <!-- Cards Section -->
             <div class="w-full sm:w-[400px] grid grid-cols-2 gap-3 sm:gap-8 pt-5 mx-auto">
                 <!-- Card 1 -->
-                <div class="flex items-center justify-center flex-col gap-3 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                        style="background-color: #0A6847;">
-                    <div>
+                <div
+                        style="background-color: #0A6847; transition: background-color 0.3s;"
+                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                    <div class="w-[55px]">
                         <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house-chimney fa-3x"></i>
+                        <img src="/assets/image/home.svg"/>
                     </div>
-                    <h1 class="text-[1rem] font-bold capitalize text-center">maison</h1>
+                    <h1 class="text-[1rem] font-bold capitalize">maison</h1>
                 </div>
-
                 <!-- Card 2 -->
-                <div class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer text-white hover:bg-hover"
-                        style="background-color: #0A6847;">
-                    <div>
+                <div
+                        style="background-color: #0A6847; transition: background-color 0.3s;"
+                        class="flex items-center justify-center flex-col gap-2 p-6 rounded-md transition-transform hover-transform cursor-pointer bg-primary text-white hover:bg-hover">
+                    <div class="w-[55px]">
                         <!-- Replace with actual icon -->
-                        <i class="fa-solid fa-house retro-icon fa-3x"></i>
+                        <img src="/assets/image/renHome.svg"/>
                     </div>
                     <h1 class="text-[1rem] font-bold capitalize">appartement</h1>
                 </div>
             </div>
-            <div>
-                <div >
-                    <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
-                        <img src="./assets/image/image1.png" alt="CEE Logo" />
-                        <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
-                        <img src="./assets/image/image3.png" alt="TVA Réduite Logo" />
-                        <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
-                    </div>
+            <div >
+                <div class="grid grid-cols-4 gap-5 p-5 mx-auto w-full md:w-[400px] lg:w-[400px]">
+                    <img src="./assets/image/image1.png" alt="CEE Logo" />
+                    <img src="./assets/image/image2.png" alt="Maprimerenov Logo" />
+                    <img src="./assets/image/image3.png" alt="TVA Réduite Logo" />
+                    <img src="./assets/image/image4.jpeg" alt="Eco-prêt Logo" />
                 </div>
             </div>
     </section>
